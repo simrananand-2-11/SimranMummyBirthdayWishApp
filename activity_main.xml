@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/SimranMummyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:layout_weight="0.6"
+        android:src="@drawable/simranmummy"
+
+        />
+
+    <TextView
+        android:id="@+id/from_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:text="Happy Birthday Mummy!"
+        android:background="#FFE082"
+        android:textColor="#4A148C"
+        android:layout_marginLeft="10dp"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:layout_alignTop="@id/SimranMummyImageView"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Simran"
+        android:background="#FF8A65"
+        android:textColor="#76FF03"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@id/SimranMummyImageView"
+        android:layout_alignBottom="@id/SimranMummyImageView"
+
+        />
+
+
+
+</RelativeLayout>
